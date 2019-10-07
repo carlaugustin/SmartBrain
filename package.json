@@ -1,10 +1,6 @@
 {
   "name": "smart-brain-api",
   "version": "1.0.0",
-  "engines":{
-    "node": "10.16.3",
-    "npm": "6.11.3"
-  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,8 +16,13 @@
     "express": "^4.17.1",
     "knex": "^0.17.6",
     "pg": "^7.11.0"
+    "nodemon": "^1.19.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+  },
+
+  "engines":{
+    "node": "10.16.3",
+    "npm": "6.11.3"
   }
 }
